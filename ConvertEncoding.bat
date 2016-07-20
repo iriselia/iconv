@@ -1,0 +1,1 @@
+forfiles /s /m *.h /c "cmd /c c:\iconv\iconv.exe -f SHIFT-JIS -t UTF-8 @path > @path.1 & move "@path.1" "@path""
